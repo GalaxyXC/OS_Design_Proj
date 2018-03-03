@@ -34,7 +34,7 @@ sudo apt-get install libpixman-1-dev
 1.4 configure (linux)
 ```
 cd qemu
-./configure --disable-kvm [--prefix=PFX] [--target-list="i386-softmmu x86_64-softmmu"]
+./configure --disable-kvm [--prefix="/home/**YOUR_USERNAME**/qemu" --target-list="i386-softmmu x86_64-softmmu"
 ```
 
 1.5 `make && make install`
